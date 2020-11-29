@@ -11,3 +11,33 @@ h1{
 h2{
     color: teal;
 }
+
+body{
+    background-color: lightgray;
+}
+
+.col-md-12{
+    background-color: white;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+.content{
+    padding-top: 40px;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+
+/*Media Adjustments*/
+@media(max-width:767px){
+    .navbar.bg-light{
+        background-color: teal!important;    
+    }
+
+    .navbar-collapse{
+        background-color:white;
+    }
+    .navbar{
+        padding:inherit;
+    }
+}
